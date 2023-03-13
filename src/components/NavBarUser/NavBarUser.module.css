@@ -1,0 +1,25 @@
+.auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+        border: transparent;
+            font-family: monospace;
+            background-color: #00be90;
+            height: 30px px;
+            border-radius: 4px;
+
+            font-size: 16px;
+            width: 70px;
+            cursor: pointer;
+            margin-left: 20px;
+            transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover{
+    scale: 1.2;
+
+}
+.email{
+    font-family: fantasy;
+}

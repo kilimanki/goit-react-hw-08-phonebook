@@ -1,0 +1,41 @@
+.item{
+    display: flex;
+        align-items: center;
+        font-size: 24px;
+}
+.btn{
+    border-radius: 4px;
+    border: transparent;
+    background-color: aqua;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(0, 162, 255);
+}
+.title{
+    text-align: center;
+}
+
+.form input {
+    border: transparent;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.6);
+        height: 33px;
+        padding-left: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background: #2f303a;
+        margin: 20px 0;
+}
+.btn {
+    display: block;
+        font-size: 15px;
+            height: 45px;
+            width: 150px;
+
+}

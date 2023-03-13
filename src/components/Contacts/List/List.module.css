@@ -1,0 +1,9 @@
+.item{
+        display: flex;
+            align-items: center;
+            justify-content: space-between;
+}
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}

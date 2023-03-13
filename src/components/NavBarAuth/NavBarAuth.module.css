@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.auth{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    margin: 10px;
+}
+:global(.active) {
+color: red;
+}
