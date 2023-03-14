@@ -1,8 +1,8 @@
 import { useSelector } from 'react-redux';
-import { UserName } from 'redux/auth/auth-selectors';
+import { userName } from 'redux/auth/auth-selectors';
 import css from './Pages.module.css';
 const Intro = () => {
-  const name = useSelector(UserName);
+  const name = useSelector(userName);
   return (
     <>
       {!name ? (

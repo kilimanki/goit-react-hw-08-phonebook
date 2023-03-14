@@ -1,4 +1,5 @@
-const Textfield = ({ label, ...props }) => {
+import PropTypes from 'prop-types';
+const Textfield = ({ ...props }) => {
   return (
     <div>
       <input {...props} />
@@ -7,3 +8,6 @@ const Textfield = ({ label, ...props }) => {
   );
 };
 export default Textfield;
+Textfield.propType = {
+  props: PropTypes.object.isRequired,
+};

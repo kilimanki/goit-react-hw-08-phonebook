@@ -1,5 +1,5 @@
 import css from './Form.module.css';
-
+import PropTypes from 'prop-types';
 import useForm from 'shared/UseForm/UseForm';
 const INITIAL_STATE = {
   name: '',
@@ -52,3 +52,6 @@ const Form = ({ onSubmit }) => {
   );
 };
 export default Form;
+Form.propType = {
+  onSubmit: PropTypes.func.isRequired,
+};

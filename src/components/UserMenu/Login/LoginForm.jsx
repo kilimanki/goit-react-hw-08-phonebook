@@ -1,6 +1,6 @@
 import Textfield from 'shared/TextField/TextField';
 import useForm from 'shared/UseForm/UseForm';
-
+import PropTypes from 'prop-types';
 import css from './LoginForm.module.css';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import VpnKeyIcon from '@mui/icons-material/VpnKey';
@@ -41,4 +41,7 @@ export const Login = ({ onSubmit }) => {
       </form>
     </div>
   );
+};
+Login.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
 };

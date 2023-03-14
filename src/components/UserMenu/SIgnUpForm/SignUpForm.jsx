@@ -5,6 +5,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import VpnKeyIcon from '@mui/icons-material/VpnKey';
 import EmailIcon from '@mui/icons-material/Email';
 import Button from '@mui/material/Button';
+import PropTypes from 'prop-types';
 import fields from '../fields';
 const INITIAL_STATE = {
   name: '',
@@ -47,16 +48,9 @@ export const SignUp = ({ onSubmit }) => {
           </Button>
         </form>
       </div>
-      {/* <form onSubmit={handleSubmit}>
-        <Textfield value={name} onChange={handleChange} {...fields.name} />
-        <Textfield value={email} onChange={handleChange} {...fields.email} />
-        <Textfield
-          value={password}
-          onChange={handleChange}
-          {...fields.password}
-        />
-        <button type="submit">Sign up </button>
-      </form> */}
     </>
   );
+};
+SignUp.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
 };
